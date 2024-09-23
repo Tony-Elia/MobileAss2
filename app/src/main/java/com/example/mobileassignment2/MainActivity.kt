@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
                 isValid = false
             }
             if (spinner.selectedItemPosition == 0) {
-                Toast.makeText(this, "Choose a Fuckin' major", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Choose a major", Toast.LENGTH_SHORT).show()
                 isValid = false
             }
             if (password.text.isEmpty()) {
